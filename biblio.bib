@@ -1,0 +1,95 @@
+@phdthesis{lescu2011,
+  url    = {http://www.theses.fr/2011PA112363},
+  title  = {Formalizing and Implementing a Reflexive Tactic for Automated Deduction in Coq},
+  author = {Lescuyer, Stephane},
+  year   = {2011},
+  note   = {Thèse de doctorat dirigée par Contejean, Evelyne Informatique Paris 11 2011},
+  note   = {2011PA112363},
+  url    = {http://www.theses.fr/2011PA112363/document}
+}
+
+@inproceedings{10.5555/1807707.1807727,
+  author    = {Lescuyer, St\'{e}phane and Conchon, Sylvain},
+  title     = {Improving Coq Propositional Reasoning Using a Lazy CNF Conversion Scheme},
+  year      = {2009},
+  isbn      = {364204221X},
+  publisher = {Springer-Verlag},
+  address   = {Berlin, Heidelberg},
+  abstract  = {In an attempt to improve automation capabilities in the Coq proof assistant, we develop
+               a tactic for the propositional fragment based on the DPLL procedure. Although formulas
+               naturally arising in interactive proofs do not require a state-of-the-art SAT solver,
+               the conversion to clausal form required by DPLL strongly damages the performance of
+               the procedure. In this paper, we present a reflexive DPLL algorithm formalized in
+               Coq which outperforms the existing tactics. It is tightly coupled with a lazy CNF
+               conversion scheme which, unlike Tseitin-style approaches, does not disrupt the procedure.
+               This conversion relies on a lazy mechanism which requires slight adaptations of the
+               original DPLL. As far as we know, this is the first formal proof of this mechanism
+               and its Coq implementation raises interesting challenges.},
+  booktitle = {Proceedings of the 7th International Conference on Frontiers of Combining Systems},
+  pages     = {287–303},
+  numpages  = {17},
+  location  = {Trento, Italy},
+  series    = {FroCoS'09}
+}
+
+@misc{key,
+  author       = {Guillaume Bury},
+  howpublished = {\url{https://github.com/Gbury/mSAT/blob/master/articles/icfp_2017.pdf}},
+  title        = {an OCaml sat solver},
+  year         = {2017}
+}
+
+@inproceedings{ekici:hal-01669345,
+  title       = {{SMTCoq: A plug-in for integrating SMT solvers into Coq}},
+  author      = {Ekici, Burak and Mebsout, Alain and Tinelli, Cesare and Keller, Chantal and Katz, Guy and Reynolds, Andrew and Barrett, Clark},
+  url         = {https://hal.archives-ouvertes.fr/hal-01669345},
+  booktitle   = {{Computer Aided Verification - 29th International Conference}},
+  address     = {Heidelberg, Germany},
+  year        = {2017},
+  month       = Jul,
+  pdf         = {https://hal.archives-ouvertes.fr/hal-01669345/file/main.pdf},
+  hal_id      = {hal-01669345},
+  hal_version = {v1}
+}
+
+@article{article,
+  author  = {Ekici, Burak and Katz, Guy and Keller, Chantal and Mebsout, Alain and Reynolds, Andrew and Tinelli, Cesare},
+  year    = {2016},
+  month   = {06},
+  pages   = {21-29},
+  title   = {Extending SMTCoq, a Certified Checker for SMT (Extended Abstract)},
+  volume  = {210},
+  journal = {Electronic Proceedings in Theoretical Computer Science},
+  doi     = {10.4204/EPTCS.210.5}
+}
+
+@inproceedings{10.1007/978-3-642-25379-9_12,
+  author    = {Armand, Michael and Faure, Germain and Gr\'{e}goire, Benjamin and Keller, Chantal and Th\'{e}ry, Laurent and Werner, Benjamin},
+  title     = {A Modular Integration of SAT/SMT Solvers to Coq through Proof Witnesses},
+  year      = {2011},
+  isbn      = {9783642253782},
+  publisher = {Springer-Verlag},
+  address   = {Berlin, Heidelberg},
+  url       = {https://doi.org/10.1007/978-3-642-25379-9_12},
+  doi       = {10.1007/978-3-642-25379-9_12},
+  abstract  = {We present a way to enjoy the power of SAT and SMT provers in Coq without compromising
+               soundness. This requires these provers to return not only a yes/no answer, but also
+               a proof witness that can be independently rechecked. We present such a checker, written
+               and fully certified in Coq. It is conceived in a modular way, in order to tame the
+               proofs' complexity and to be extendable. It can currently check witnesses from the
+               SAT solver ZChaff and from the SMT solver veriT. Experiments highlight the efficiency
+               of this checker. On top of it, new reflexive Coq tactics have been built that can
+               decide a subset of Coq's logic by calling external provers and carefully checking
+               their answers.},
+  booktitle = {Proceedings of the First International Conference on Certified Programs and Proofs},
+  pages     = {135–150},
+  numpages  = {16},
+  location  = {Kenting, Taiwan},
+  series    = {CPP'11}
+}
+
+@inproceedings{Armand2011VerifyingSA,
+  title  = {Verifying SAT and SMT in Coq for a fully automated decision procedure},
+  author = {Micha{\"e}l Armand and Germain Faure and Chantal Keller and Laurent Th{\'e}ry and Benjamin Werner and Inria Sophia-Antipolis},
+  year   = {2011}
+}
